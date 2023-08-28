@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  godocker:
+    container_name: godocker
+    image: godocker
+    restart: unless-stopped
